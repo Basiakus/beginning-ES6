@@ -1,10 +1,10 @@
 
 //zadanie 1
 const name = "Adam";
-const surName = "Basiak"
+const surName = "Basiak";
 console.log(`imię: ${name}; nazwisko: ${surName}`);
 // zadanie 2
-const multiply = (a, b = 1) => {return a * b};
+const multiply = (a, b = 1) => a * b;
 //zadanie 3
 const average = (...args) => [...args].reduce((a, b) => a + b, 0) / args.length;
 //zadanie 4
